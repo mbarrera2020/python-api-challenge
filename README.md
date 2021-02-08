@@ -30,6 +30,30 @@ Tasks:
             Southern Hemisphere - Cloudiness (%) vs. Latitude
             Northern Hemisphere - Wind Speed (mph) vs. Latitude
             Southern Hemisphere - Wind Speed (mph) vs. Latitude
+            
+#### Part 1 -- Observations -- based on sample city data
+
+For ALL cities:
+Latitude vs Temperature: Temperature decreases as latitude increases
+
+Latitude vs Humidity: Humidity is usually between 40 – 100% for latitude between -40 to 80.
+
+Latitude vs Cloudiness: Cloudiness is between 0 to 100 for latitude between -40 to 80.
+
+Latitude vs Wind Speed: Wind speed is between 0 to 10 for latitude between -40 to 80.
+
+Northern Hemisphere -- Max Temp vs Latitude: As the city latitude increases, the temperature decreases.
+
+Southern Hemisphere -- Max Temp vs Latitude: As the city latitude increases, the temperature increases.
+
+Northern Hemisphere -- Humidity vs Latitude Linear Regression: As the city latitude increases, the temperature decreases.
+
+Northern Hemisphere -- Wind Speed (mph) vs. Latitude Linear Regression:
+    Wind speed is between 0 – 20 mph for latitude between 0 to 80.
+    
+Southern Hemisphere -- Wind Speed (mph) vs. Latitude Linear Regression:
+    Wind speed is between 0 – 20 mph for latitude between 0 to -60.
+            
     
 #### Part 2 -- mainVacationPy
 
