@@ -43,23 +43,28 @@ Latitude vs Cloudiness: Cloudiness is between 0 to 100 for latitude between -40 
 Latitude vs Wind Speed: Wind speed is between 0 to 10 for latitude between -40 to 80.
 
 Northern Hemisphere -- Max Temp vs Latitude: As the city latitude increases, the temperature decreases.
+    Correlation: Lat = 0.83, Temp = 2.2
 
 Southern Hemisphere -- Max Temp vs Latitude: As the city latitude increases, the temperature increases.
+    Correlation: Lat = 0.61, Temp = 1.0
 
 Northern Hemisphere -- Humidity vs Latitude Linear Regression: As the city latitude increases, the temperature decreases.
-
+    Correlation: Lat = 0.83, Temp = 0.21
+    
 Northern Hemisphere -- Wind Speed (mph) vs. Latitude Linear Regression:
     Wind speed is between 0 – 20 mph for latitude between 0 to 80.
+    Correlation: Lat = 0.11, Wind = 0.10
     
 Southern Hemisphere -- Wind Speed (mph) vs. Latitude Linear Regression:
     Wind speed is between 0 – 20 mph for latitude between 0 to -60.
-            
+    Correlation: Lat = 0.05, Wind = 0.61
     
 #### Part 2 -- mainVacationPy
 
 Input:  CSV city file (from part 1 above)
 
 Tasks:  Create a heat map that displays the humidity for every city from Part I
+        ** see screen shots of vac_map_1 & vac_map_2 in the images folder
 
 Output:  
     Narrow down the DataFrame to find your ideal weather condition. For example:
